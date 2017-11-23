@@ -22,6 +22,6 @@ insert into dados_multimidia (nome, tipo, dados) values ( 'imagem2', 'jpg', load
 
 select * from dados_multimidia;
 
-select dados into outfile 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\Uploads\\gio.jpeg' 
+select dados into outfile 'C:\\ProgramData\\MySQL\\MySQL Server 5.7\\Uploads\\imagem2.jpeg' 
 from dados_multimidia 
 where codigo = 2;
